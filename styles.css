@@ -62,25 +62,78 @@ table {
 }
 
 h1 {
+    color: var(--linen);
     font-family: Playfair Display, sans-serif;
     font-weight: bold;
     font-size: 2.5em;
+    padding: 10px;
 }
 
 h2 {
     font-family: Playfair Display, sans-serif;
     font-size: 1.75em;
+    padding: 5px 10px;
+    color: var(--midnight-blue);
 }
 
-h3{
+h3 {
     font-family: Playfair Display, sans-serif;
     font-size: 1.65em;
+    padding: 5px 10px;
+    color: var(--midnight-blue);
 }
 
 p {
     font-size: 1.15em;
+    padding: 5px 10px;
+    color: var(--dark-charcoal);
 }
 
+br {
+    border: solid 10px black;
+}
+
+header {
+    background-color: var(--midnight-blue);
+    text-align: center;
+}
+
+nav {
+    background-color: var(--champagne-gold);
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--midnight-blue);
+}
+
+header p {
+    font-style: italic;
+    padding-bottom: 20px;
+    color: var(--linen);
+}
+
+.green-box {
+    background-color: var(--olive-green);
+    border-radius: 10px;
+    margin: 1em;
+}
+
+.green-box p,h3,li {
+    color: var(--soft-white);
+}
+
+.green-box ul {
+    padding: 5px 25px;
+    list-style-type: disc;
+}
 /* GLOBAL STYLES (mobile first/small) */
 
 
