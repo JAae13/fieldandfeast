@@ -87,6 +87,7 @@ p {
     font-size: 1.15em;
     padding: 5px 10px;
     color: var(--dark-charcoal);
+    line-height: 25px;
 }
 
 hr {
@@ -106,12 +107,12 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0.5em;
-    font-weight: bold;
 }
 
 nav a {
     text-decoration: none;
     color: var(--midnight-blue);
+    font-weight: bold;
 }
 
 header p {
@@ -123,7 +124,8 @@ header p {
 .green-box {
     background-color: var(--olive-green);
     border-radius: 10px;
-    margin: 1em;
+    margin: 1em auto;
+    padding: 0.5em;
 }
 
 .green-box p,h3,li {
@@ -136,10 +138,9 @@ header p {
 }
 
 .container {
-    width: 25%;
     border-radius: 10px;
     box-shadow: var(--dark-charcoal) 2px 2px 10px;
-    margin: 1.5em;
+    margin: 1.5em auto;
 }
 
 .container img {
@@ -148,21 +149,55 @@ header p {
 }
 
 .container p {
-    padding-bottom: 2em;
+    padding: 0.5em;
+    text-align: center;
     font-style: italic;
 }
 
 button {
     background-color: var(--olive-green);
     color: var(--soft-white);
+    font-family: Playfair Display, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
     border: none;
     border-radius: 5px;
-    padding: 10px;
-    margin: 1em auto;
     width: 100%;
+    padding: 10px;
+    margin: 0.5em auto 1em;
 }
-/* GLOBAL STYLES (mobile first/small) */
 
+footer{
+    background-color: var(--midnight-blue);
+    text-align: center;
+    padding: 1em;
+    color: var(--linen);
+}
+footer a {
+    text-decoration: none;
+    color: var(--champagne-gold);
+    font-weight: bold;
+}
+footer a:hover {
+    color: var(--soft-white);
+}
+
+footer div {
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+@media screen and (min-width: 428px) {
+    main{
+        margin: 2em;
+    }
+
+    header img {
+        width: 30%;
+        height: auto;
+    }
+}
 
 /* MEDIA QUERY (medium) */
 
