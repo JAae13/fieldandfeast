@@ -216,7 +216,7 @@ footer div {
 }
 
 /* MEDIA QUERY (medium) */
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 600px) {
     #offerings {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -246,19 +246,19 @@ footer div {
 }
 
 /* MEDIA QUERY (large) */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 900px) {
     #gallery-images {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     main {
-        max-width: 1280px;
+        max-width: 900px;
         margin: 0 auto;
     }
 }
 
 /* MEDIA QUERY (xl) */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
     #gallery-images {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
